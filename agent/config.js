@@ -19,15 +19,15 @@ const AI_MODELS = [
     {
         name: 'gemini-2.0-flash-lite',
         priority: 3,
-        perMinuteLimit: 20,
-        perDayLimit: 400,
+        perMinuteLimit: 10,
+        perDayLimit: 200,
         enabled: true
     },
     {
         name: 'gemini-1.5-flash',
         priority: 4,
-        perMinuteLimit: 25,
-        perDayLimit: 500,
+        perMinuteLimit: 5,
+        perDayLimit: 30,
         enabled: true
     }
 ];
